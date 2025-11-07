@@ -1,7 +1,17 @@
 import "./App.css";
+import { Hero } from "./components";
+import { tegallalangRiceTerracesBaliOld } from "./assets";
 
 function App() {
-  return <h1>Southeast Asian Website</h1>;
+  return (
+    <>
+      <Hero
+        title="Southeast Asian Community"
+        subtitle="at Cal"
+        backgroundImage={tegallalangRiceTerracesBaliOld}
+      ></Hero>
+    </>
+  );
 }
 
 export default App;
