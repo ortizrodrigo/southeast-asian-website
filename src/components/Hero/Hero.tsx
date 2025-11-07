@@ -8,7 +8,12 @@ interface HeroProps {
 
 function Hero({ title, subtitle, backgroundImage }: HeroProps) {
   return (
-    <section className="hero" style={{ backgroundImage: `url(${backgroundImage})` }}>
+    <section
+      className="hero"
+      style={{
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(${backgroundImage})`,
+      }}
+    >
       <div>
         <h1 className="hero-title">{title}</h1>
         {subtitle && <h2 className="hero-subtitle">{subtitle}</h2>}
