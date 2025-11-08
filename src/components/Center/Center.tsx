@@ -1,3 +1,4 @@
+import "./Center.css";
 import type { ReactNode, CSSProperties } from "react";
 
 interface CenterProps {
