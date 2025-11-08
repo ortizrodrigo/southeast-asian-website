@@ -1,3 +1,5 @@
+import { Link } from "../../components";
+
 export interface MenuEntryProps {
   name: string;
   label: string;
@@ -10,9 +12,9 @@ function MenuEntry({ name, label, description, href }: MenuEntryProps) {
     <div>
       <p>
         {href ? (
-          <a href={href} style={{ textDecoration: "underline", fontWeight: "bold" }}>
+          <Link href={href} underline bold>
             {name}
-          </a>
+          </Link>
         ) : (
           <strong>{name}</strong>
         )}

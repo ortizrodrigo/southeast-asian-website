@@ -9,3 +9,7 @@
   letter-spacing: 10px;
   margin: 32px 0;
 }
+
+.resources-section-header {
+  text-transform: uppercase;
+}
