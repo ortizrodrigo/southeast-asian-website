@@ -4,6 +4,9 @@ import { tegallalangRiceTerracesBaliPortrait } from "../../assets";
 function ResourcesSection() {
   return (
     <section className="resources-section">
+      <Center>
+        <h2 className="resources-section-title">Resources</h2>
+      </Center>
       <SplitView>
         <Center width={"60%"}>
           <ImageCard
