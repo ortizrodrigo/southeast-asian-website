@@ -18,7 +18,7 @@ function AboutSection() {
   return (
     <section className="about-section">
       <SplitView spaceAround={32}>
-        <Center>
+        <Center width="80%">
           <SplitView direction="column">
             <h2 className="about-section-title">About Us</h2>
             <p>
