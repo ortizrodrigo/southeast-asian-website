@@ -12,6 +12,16 @@
   letter-spacing: 10px;
 }
 
+.community-section-location {
+  font-size: 24px;
+}
+
 .community-section-menu-header {
   text-transform: uppercase;
+}
+
+@media (max-width: 768px), (max-height: 768px) {
+  .community-section-location {
+    font-size: 12px;
+  }
 }

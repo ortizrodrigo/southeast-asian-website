@@ -6,7 +6,7 @@ function CommunitySection() {
       <Center width={"80%"}>
         <h2 className="community-section-title">Our Community</h2>
         <InlineLine />
-        <p>Berkeley</p>
+        <p className="community-section-location">Berkeley</p>
       </Center>
       <SplitView width={"80%"}>
         <SplitView direction="column" justifyContent="flex-start">

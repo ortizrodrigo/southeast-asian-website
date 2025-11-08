@@ -8,3 +8,13 @@
   text-transform: uppercase;
   letter-spacing: 10px;
 }
+
+.about-section-text {
+  font-size: 24px;
+}
+
+@media (max-width: 768px), (max-height: 768px) {
+  .about-section-text {
+    font-size: 12px;
+  }
+}
