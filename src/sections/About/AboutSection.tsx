@@ -1,5 +1,6 @@
+import "./AboutSection.css";
 function AboutSection() {
-  return <section></section>;
+  return <section className="about-section">About</section>;
 }
 
 export default AboutSection;

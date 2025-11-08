@@ -1,6 +1,7 @@
 import "./App.css";
 import { Hero } from "../components";
-import { tegallalangRiceTerracesBaliOld } from "../assets";
+import { tegallalangRiceTerracesBaliLandscape } from "../assets";
+import { AboutSection } from "../sections";
 
 function App() {
   return (
@@ -8,8 +9,9 @@ function App() {
       <Hero
         title="Southeast Asian Community"
         subtitle="at Cal"
-        backgroundImage={tegallalangRiceTerracesBaliOld}
+        backgroundImage={tegallalangRiceTerracesBaliLandscape}
       />
+      <AboutSection />
     </>
   );
 }
