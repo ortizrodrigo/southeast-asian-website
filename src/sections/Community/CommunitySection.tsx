@@ -1,5 +1,8 @@
 import "./CommunitySection.css";
-import { Center, InlineLine, SplitView } from "../../components";
+import { Center, InlineLine, SplitView, AlignTopLeft } from "../../components";
+import { authors, locations, restaurants, studentOrganizations } from "./data";
+import MenuSection from "./MenuSection";
+import SimpleMenuSection from "./SimpleMenuSection";
 
 function CommunitySection() {
   return (
@@ -9,15 +12,15 @@ function CommunitySection() {
         <InlineLine />
         <p className="community-section-location">Berkeley</p>
       </Center>
-      <SplitView width={"80%"}>
-        <SplitView direction="column" justifyContent="flex-start">
-          <h3 className="community-section-menu-header">Authors and Publications</h3>
-          <h3 className="community-section-menu-header">Student Organizations</h3>
-        </SplitView>
-        <SplitView direction="column" justifyContent="flex-start">
-          <h3 className="community-section-menu-header">Locations</h3>
-          <h3 className="community-section-menu-header">Restaurants We Recommend</h3>
-        </SplitView>
+      <SplitView spaceAround={"64px"} width={"80%"} alignItems="flex-start">
+        <AlignTopLeft>
+          <MenuSection title="Authors and Publications" entries={authors} />
+          <SimpleMenuSection title="Student Organizations" entries={studentOrganizations} />
+        </AlignTopLeft>
+        <AlignTopLeft>
+          <MenuSection title="Locations" entries={locations} />
+          <MenuSection title="Restaurants We Recommend" entries={restaurants} />
+        </AlignTopLeft>
       </SplitView>
     </section>
   );
