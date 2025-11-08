@@ -1,0 +1,11 @@
+.gallery {
+  display: grid;
+  box-sizing: border-box;
+}
+
+/* Responsive: stack two columns vertically on small screens */
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
