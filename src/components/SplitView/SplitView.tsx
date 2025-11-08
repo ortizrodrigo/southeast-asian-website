@@ -13,21 +13,16 @@ function SplitView({ children, spaceAround = "16px", direction = "row" }: SplitV
 
   if (childArray.length === 0) return null;
 
-  const style: CSSProperties =
-    direction === "row"
-      ? {
-          gridTemplateColumns: `repeat(${childArray.length}, 1fr)`,
-          columnGap: spaceAround,
-          padding: spaceAround,
-        }
-      : {
-          gridTemplateRows: `repeat(${childArray.length}, 1fr)`,
-          rowGap: spaceAround,
-          padding: spaceAround,
-        };
+  const style: CSSProperties = {
+    display: "grid",
+    gridTemplateColumns: direction === "row" ? `repeat(${childArray.length}, 1fr)` : undefined,
+    gridTemplateRows: direction === "column" ? `repeat(${childArray.length}, 1fr)` : undefined,
+    gap: spaceAround,
+    padding: spaceAround,
+  };
 
   return (
-    <div className={`split-view split-${direction}`} style={style}>
+    <div className="split-view" style={style}>
       {childArray.map((child, index) => (
         <div className="split-child" key={`child-${index}`}>
           {child}

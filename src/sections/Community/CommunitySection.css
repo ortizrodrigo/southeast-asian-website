@@ -3,13 +3,15 @@
 }
 
 .community-section-title {
-  font-size: 64px;
   font-family: "Lexend", sans-serif;
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: 10px;
 }
 
-.community-section-text {
-  font-size: 24px;
+.divider {
+  display: block;
+  width: 10%;
+  height: 1px;
+  background-color: #6d5745;
 }
