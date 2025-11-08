@@ -14,7 +14,7 @@ function ResourcesSection() {
             description="Tegallalang Rice Terraces in Bali, Indonesia"
           />
         </Center>
-        <Center>
+        <Center width={"60%"}>
           <ImageCard
             image={tegallalangRiceTerracesBaliPortrait}
             description="Tegallalang Rice Terraces in Bali, Indonesia"

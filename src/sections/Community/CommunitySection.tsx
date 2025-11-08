@@ -12,7 +12,7 @@ function CommunitySection() {
         <InlineLine />
         <p className="community-section-location">Berkeley</p>
       </Center>
-      <SplitView spaceAround={"64px"} width={"80%"} alignItems="flex-start">
+      <SplitView gap="16px" width={"80%"} alignItems="flex-start">
         <AlignTopLeft>
           <MenuSection title="Authors and Publications" entries={authors} />
           <SimpleMenuSection title="Student Organizations" entries={studentOrganizations} />
