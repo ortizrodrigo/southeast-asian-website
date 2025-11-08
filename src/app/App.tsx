@@ -1,6 +1,6 @@
 import "./App.css";
-import { Hero } from "./components";
-import { tegallalangRiceTerracesBaliOld } from "./assets";
+import { Hero } from "../components";
+import { tegallalangRiceTerracesBaliOld } from "../assets";
 
 function App() {
   return (
