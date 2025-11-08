@@ -7,7 +7,7 @@ export interface MenuEntryProps {
 
 function MenuEntry({ name, label, description, href }: MenuEntryProps) {
   return (
-    <div className="community-section-menu-entry">
+    <div>
       <p>
         {href ? (
           <a href={href} style={{ textDecoration: "underline", fontWeight: "bold" }}>

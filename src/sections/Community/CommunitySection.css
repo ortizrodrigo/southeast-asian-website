@@ -20,10 +20,6 @@
   text-transform: uppercase;
 }
 
-.community-section-menu-entry {
-  margin-bottom: 8px;
-}
-
 @media (max-width: 768px), (max-height: 768px) {
   .community-section-location {
     font-size: 12px;

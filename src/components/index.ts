@@ -5,3 +5,4 @@ export { default as SplitView } from "./SplitView/SplitView";
 export { default as Center } from "./Center/Center";
 export { default as InlineLine } from "./InlineLine/InlineLine";
 export { default as AlignTopLeft } from "./AlignTopLeft/AlignTopLeft";
+export { default as List } from "./List/List";
