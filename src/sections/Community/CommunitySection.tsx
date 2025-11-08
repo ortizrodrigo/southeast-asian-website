@@ -1,5 +1,6 @@
 import "./CommunitySection.css";
 import { Center, InlineLine, SplitView } from "../../components";
+
 function CommunitySection() {
   return (
     <section className="community-section">
