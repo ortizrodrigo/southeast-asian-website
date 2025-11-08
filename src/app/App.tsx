@@ -9,7 +9,7 @@ function App() {
         title="Southeast Asian Community"
         subtitle="at Cal"
         backgroundImage={tegallalangRiceTerracesBaliOld}
-      ></Hero>
+      />
     </>
   );
 }
