@@ -21,7 +21,7 @@ function AboutSection() {
         <Center>
           <SplitView direction="column">
             <h2 className="about-section-title">About Us</h2>
-            <p className="about-section-text">
+            <p>
               Berkeley is home to students from various backgrounds. Through the initiatives of the
               Office of Senator Sydnee Thy, this website was created to share information about the
               Southeast Community at Cal.

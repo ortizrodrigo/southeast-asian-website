@@ -9,3 +9,21 @@ body {
   background-color: #e8e1cf;
   color: #6e5745;
 }
+
+h2 {
+  font-size: 64px;
+}
+
+p {
+  font-size: 24px;
+}
+
+@media (max-width: 768px), (max-height: 600px) {
+  h2 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
