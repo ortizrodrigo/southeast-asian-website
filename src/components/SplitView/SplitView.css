@@ -6,8 +6,6 @@
 
 .split-child {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* Responsive fallback: always stack vertically on small screens */
