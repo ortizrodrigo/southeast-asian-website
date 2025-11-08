@@ -1,5 +1,5 @@
 import "./CommunitySection.css";
-import { Center, InlineLine } from "../../components";
+import { Center, InlineLine, SplitView } from "../../components";
 function CommunitySection() {
   return (
     <section className="community-section">
@@ -8,6 +8,16 @@ function CommunitySection() {
         <InlineLine />
         <p>Berkeley</p>
       </Center>
+      <SplitView>
+        <SplitView direction="column">
+          <h3 className="community-section-menu-header">Authors and Publications</h3>
+          <h3 className="community-section-menu-header">Student Organizations</h3>
+        </SplitView>
+        <SplitView direction="column">
+          <h3 className="community-section-menu-header">Locations</h3>
+          <h3 className="community-section-menu-header">Restaurants We Recommend</h3>
+        </SplitView>
+      </SplitView>
     </section>
   );
 }
