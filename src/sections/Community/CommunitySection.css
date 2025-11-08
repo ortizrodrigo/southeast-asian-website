@@ -1,5 +1,8 @@
 .community-section {
   background-color: #e8e1cf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .community-section-title {

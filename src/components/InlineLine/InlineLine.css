@@ -1,0 +1,7 @@
+.inline-line {
+  display: inline-block;
+  flex: 1;
+  background-color: #6d5745;
+  height: 1px;
+  margin: 0 16px;
+}
