@@ -5,7 +5,7 @@ function CommunitySection() {
     <section className="community-section">
       <Center>
         <h2 className="community-section-title">Our Community</h2>
-        <p className="community-section-title">Berkeley</p>
+        <p>Berkeley</p>
       </Center>
     </section>
   );

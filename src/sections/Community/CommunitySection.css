@@ -8,10 +8,3 @@
   text-transform: uppercase;
   letter-spacing: 10px;
 }
-
-.divider {
-  display: block;
-  width: 10%;
-  height: 1px;
-  background-color: #6d5745;
-}
