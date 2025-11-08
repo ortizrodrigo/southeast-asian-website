@@ -1,13 +1,14 @@
 .resources-section {
   background-color: #c2c8af;
+  padding: 32px 0;
 }
 
 .resources-section-title {
   font-family: "Lexend", sans-serif;
   font-weight: 200;
   text-transform: uppercase;
-  letter-spacing: 10px;
-  margin: 32px 0;
+  letter-spacing: 6px;
+  margin-bottom: 32px;
 }
 
 .resources-section-header {
