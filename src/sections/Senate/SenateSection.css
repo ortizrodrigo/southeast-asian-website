@@ -1,8 +1,8 @@
-.about-section {
+.senate-section {
   background-color: #e8e1cf;
 }
 
-.about-section-title {
+.senate-section-title {
   font-size: 64px;
   font-family: "Lexend", sans-serif;
   font-weight: 200;
@@ -10,6 +10,6 @@
   letter-spacing: 10px;
 }
 
-.about-section-text {
+.senate-section-text {
   font-size: 24px;
 }

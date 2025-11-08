@@ -1,5 +1,6 @@
+import "./ResourcesSection.css";
 function ResourcesSection() {
-  return <section></section>;
+  return <section className="resources-section">Resources Section</section>;
 }
 
 export default ResourcesSection;

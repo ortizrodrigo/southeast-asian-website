@@ -1,7 +1,7 @@
 import "./App.css";
 import { Hero } from "../components";
 import { tegallalangRiceTerracesBaliLandscape } from "../assets";
-import { AboutSection } from "../sections";
+import { AboutSection, CommunitySection, ResourcesSection, SenateSection } from "../sections";
 
 function App() {
   return (
@@ -12,6 +12,9 @@ function App() {
         backgroundImage={tegallalangRiceTerracesBaliLandscape}
       />
       <AboutSection />
+      <CommunitySection />
+      <ResourcesSection />
+      <SenateSection />
     </>
   );
 }
