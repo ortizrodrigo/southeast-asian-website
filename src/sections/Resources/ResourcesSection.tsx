@@ -1,6 +1,7 @@
 import "./ResourcesSection.css";
-import { SplitView, Center, ImageCard, Link } from "../../components";
+import { SplitView, Center, ImageCard, Link, List, AlignTopLeft } from "../../components";
 import { tegallalangRiceTerracesBaliPortrait } from "../../assets";
+import { courses, coursesUrl, scholarshipsUrl } from "./data";
 function ResourcesSection() {
   return (
     <section className="resources-section">
@@ -14,21 +15,25 @@ function ResourcesSection() {
             description="Tegallalang Rice Terraces in Bali, Indonesia"
           />
         </Center>
-        <Center width={"60%"}>
-          <h3 className="resources-section-header">
-            <Link
-              href="https://docs.google.com/spreadsheets/d/1CqSYPL2n4ygXc4MLq1Ow9EoF7TIW35804HzYpsbfgU8/edit?gid=0#gid=0"
-              underline
-              bold
-            >
-              Courses Offered At Berkeley
-            </Link>
-          </h3>
-
-          <ImageCard
-            image={tegallalangRiceTerracesBaliPortrait}
-            description="Tegallalang Rice Terraces in Bali, Indonesia"
-          />
+        <Center gap={16} padding={16} column>
+          <AlignTopLeft>
+            <h3 className="resources-section-header">
+              <Link href={coursesUrl} underline bold>
+                Courses Offered At Berkeley
+              </Link>
+            </h3>
+            <List entries={courses} bullets />
+          </AlignTopLeft>
+          <AlignTopLeft>
+            <h3 className="resources-section-header">
+              <Link href={scholarshipsUrl} underline bold>
+                Scholarships
+              </Link>
+            </h3>
+          </AlignTopLeft>
+          <AlignTopLeft>
+            <h3 className="resources-section-header">Museum and Cultural Centers</h3>
+          </AlignTopLeft>
         </Center>
       </SplitView>
     </section>

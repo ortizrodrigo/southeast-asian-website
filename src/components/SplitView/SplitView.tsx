@@ -6,7 +6,7 @@ interface SplitViewProps {
   children: ReactNode;
   gap?: string | number;
   padding?: string | number;
-  direction?: "row" | "column";
+  column?: boolean;
   justifyContent?: CSSProperties["justifyContent"];
   alignItems?: CSSProperties["alignItems"];
   width?: string | number;
@@ -16,7 +16,7 @@ function SplitView({
   children,
   gap = "0",
   padding = "0",
-  direction = "row",
+  column = false,
   justifyContent = "center",
   alignItems = "center",
   width = "100%",
@@ -28,8 +28,8 @@ function SplitView({
   const style: CSSProperties = {
     display: "grid",
     width,
-    gridTemplateColumns: direction === "row" ? `repeat(${childArray.length}, 1fr)` : undefined,
-    gridTemplateRows: direction === "column" ? `repeat(${childArray.length}, 1fr)` : undefined,
+    gridTemplateColumns: column ? undefined : `repeat(${childArray.length}, 1fr)`,
+    gridTemplateRows: column ? `repeat(${childArray.length}, 1fr)` : undefined,
     gap,
     padding,
   };

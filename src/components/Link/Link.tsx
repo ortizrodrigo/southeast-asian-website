@@ -15,7 +15,7 @@ function Link({ href, children, underline = false, bold = false }: LinkProps) {
   };
 
   return (
-    <a href={href} style={style}>
+    <a href={href} style={style} target="_blank" rel="noopener noreferrer">
       {children}
     </a>
   );

@@ -12,7 +12,7 @@ function MenuSection({ title, entries }: MenuSectionProps) {
   return (
     <div>
       <h3 className="community-section-menu-header">{title}</h3>
-      <List spacing="8px">
+      <List gap="8px">
         {entries.map((entry, index) => (
           <MenuEntry key={index} {...entry} />
         ))}

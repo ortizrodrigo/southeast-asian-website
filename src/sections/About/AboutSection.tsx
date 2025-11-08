@@ -17,9 +17,9 @@ function AboutSection() {
 
   return (
     <section className="about-section">
-      <SplitView spaceAround={32}>
+      <SplitView gap="16px" padding="16px">
         <Center width="80%">
-          <SplitView direction="column">
+          <SplitView column>
             <h2 className="about-section-title">About Us</h2>
             <p className="about-section-text">
               Berkeley is home to students from various backgrounds. Through the initiatives of the
@@ -28,7 +28,6 @@ function AboutSection() {
             </p>
           </SplitView>
         </Center>
-
         <Gallery items={galleryItems} columns={2} />
       </SplitView>
     </section>

@@ -1,23 +1,28 @@
 import React from "react";
-import "./List.css";
 import type { ReactNode } from "react";
 
 interface ListProps {
   entries?: string[];
   children?: ReactNode;
-  spacing?: string;
+  gap?: string;
+  bullets?: boolean;
 }
 
-function List({ entries, children, spacing = "0" }: ListProps) {
+function List({ entries, children, gap = "0", bullets = false }: ListProps) {
   return (
     <div className="list">
       {entries && (
-        <ul>
+        <ul
+          style={{
+            listStyleType: bullets ? "disc" : "none",
+            paddingLeft: bullets ? undefined : 0,
+          }}
+        >
           {entries.map((entry, index) => (
             <li
               key={index}
               style={{
-                marginBottom: spacing,
+                marginBottom: gap,
               }}
             >
               {entry}
@@ -31,7 +36,7 @@ function List({ entries, children, spacing = "0" }: ListProps) {
           {React.Children.map(children, (child) => (
             <div
               style={{
-                marginBottom: spacing,
+                marginBottom: gap,
               }}
             >
               {child}

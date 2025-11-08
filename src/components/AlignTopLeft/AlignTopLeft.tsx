@@ -4,13 +4,15 @@ import type { ReactNode, CSSProperties } from "react";
 interface AlignTopLeftProps {
   children: ReactNode;
   width?: string | number;
-  height?: string | number;
+  gap?: string | number;
+  padding?: string | number;
 }
 
-export default function AlignTopLeft({ children, width, height }: AlignTopLeftProps) {
+export default function AlignTopLeft({ children, width, gap = 0, padding = 0 }: AlignTopLeftProps) {
   const style: CSSProperties = {
     width,
-    height,
+    gap,
+    padding,
   };
 
   return (
