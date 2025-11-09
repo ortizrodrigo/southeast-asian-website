@@ -6,7 +6,7 @@ import { Center } from "../../components";
 
 function SenateSection() {
   return (
-    <section className="senate-section">
+    <section id="senate" className="senate-section">
       <Center column>
         <h2 className="senate-section-title">Senate</h2>
         <SenatorCard {...sydneeThyInformation} />

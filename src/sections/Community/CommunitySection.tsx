@@ -6,7 +6,7 @@ import SimpleMenuSection from "./SimpleMenuSection";
 
 function CommunitySection() {
   return (
-    <section className="community-section">
+    <section id="community" className="community-section">
       <Center>
         <Center width={"80%"}>
           <h2 className="community-section-title">Our Community</h2>

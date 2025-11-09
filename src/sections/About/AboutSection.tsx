@@ -16,7 +16,7 @@ function AboutSection() {
   ];
 
   return (
-    <section className="about-section">
+    <section id="about" className="about-section">
       <SplitView gap="16px" padding="16px">
         <Center width="80%">
           <SplitView column>

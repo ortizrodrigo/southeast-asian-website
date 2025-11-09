@@ -4,7 +4,7 @@ import { tegallalangRiceTerracesBaliPortrait } from "../../assets";
 import { courses, coursesUrl, scholarships, scholarshipsUrl } from "./data";
 function ResourcesSection() {
   return (
-    <section className="resources-section">
+    <section id="resources" className="resources-section">
       <Center>
         <h2 className="resources-section-title">Resources</h2>
       </Center>
