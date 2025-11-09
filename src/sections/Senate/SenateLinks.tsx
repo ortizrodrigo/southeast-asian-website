@@ -1,5 +1,5 @@
 import "./SenateSection.css";
-import { Link, Center } from "../../components";
+import { ExternalLink, Center } from "../../components";
 import { senateLinks } from "./data";
 
 function SenateLinks() {
@@ -7,9 +7,9 @@ function SenateLinks() {
     <Center gap={16} padding={16}>
       {senateLinks.map((link) => (
         <div className="senate-link">
-          <Link href={link.href} bold>
+          <ExternalLink href={link.href} bold>
             {link.label}
-          </Link>
+          </ExternalLink>
         </div>
       ))}
     </Center>

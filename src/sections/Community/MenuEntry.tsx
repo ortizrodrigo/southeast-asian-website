@@ -1,4 +1,4 @@
-import { Link } from "../../components";
+import { ExternalLink } from "../../components";
 
 export interface MenuEntryProps {
   name: string;
@@ -12,9 +12,9 @@ function MenuEntry({ name, label, description, href }: MenuEntryProps) {
     <div>
       <p>
         {href ? (
-          <Link href={href} underline bold>
+          <ExternalLink href={href} underline bold>
             {name}
-          </Link>
+          </ExternalLink>
         ) : (
           <strong>{name}</strong>
         )}

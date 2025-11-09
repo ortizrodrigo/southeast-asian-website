@@ -1,14 +1,14 @@
 import React from "react";
 import type { ReactNode } from "react";
 
-interface LinkProps {
+interface ExternalLinkProps {
   href: string;
   children: ReactNode;
   underline?: boolean;
   bold?: boolean;
 }
 
-function Link({ href, children, underline = false, bold = false }: LinkProps) {
+function ExternalLink({ href, children, underline = false, bold = false }: ExternalLinkProps) {
   const style: React.CSSProperties = {
     textDecoration: underline ? "underline" : "none",
     fontWeight: bold ? "bold" : "normal",
@@ -21,4 +21,4 @@ function Link({ href, children, underline = false, bold = false }: LinkProps) {
   );
 }
 
-export default Link;
+export default ExternalLink;
