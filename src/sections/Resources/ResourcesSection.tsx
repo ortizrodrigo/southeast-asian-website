@@ -1,5 +1,5 @@
 import "./ResourcesSection.css";
-import { SplitView, Center, ImageCard, Link, List, AlignTopLeft } from "../../components";
+import { SplitView, Center, ImageCard, Link, List } from "../../components";
 import { tegallalangRiceTerracesBaliPortrait } from "../../assets";
 import { courses, coursesUrl, scholarshipsUrl } from "./data";
 function ResourcesSection() {
@@ -16,24 +16,24 @@ function ResourcesSection() {
           />
         </Center>
         <Center gap={16} padding={16} column>
-          <AlignTopLeft>
+          <Center column>
             <h3 className="resources-section-header">
               <Link href={coursesUrl} underline bold>
                 Courses Offered At Berkeley
               </Link>
             </h3>
-            <List entries={courses} bullets />
-          </AlignTopLeft>
-          <AlignTopLeft>
+            <List entries={courses} center />
+          </Center>
+          <Center>
             <h3 className="resources-section-header">
               <Link href={scholarshipsUrl} underline bold>
                 Scholarships
               </Link>
             </h3>
-          </AlignTopLeft>
-          <AlignTopLeft>
+          </Center>
+          <Center>
             <h3 className="resources-section-header">Museum and Cultural Centers</h3>
-          </AlignTopLeft>
+          </Center>
         </Center>
       </SplitView>
     </section>
