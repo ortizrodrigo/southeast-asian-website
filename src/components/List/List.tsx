@@ -8,13 +8,7 @@ interface ListProps {
   center?: boolean;
 }
 
-export default function List({
-  entries,
-  children,
-  gap = 0,
-  bullets = false,
-  center = false,
-}: ListProps) {
+function List({ entries, children, gap = 0, bullets = false, center = false }: ListProps) {
   const listStyle: CSSProperties = {
     listStyleType: bullets ? "disc" : "none",
     paddingLeft: bullets ? undefined : 0,
@@ -47,3 +41,5 @@ export default function List({
     </div>
   );
 }
+
+export default List;

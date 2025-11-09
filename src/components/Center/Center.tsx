@@ -9,13 +9,7 @@ interface CenterProps {
   padding?: string | number;
 }
 
-export default function Center({
-  children,
-  width,
-  column = false,
-  gap = 0,
-  padding = 0,
-}: CenterProps) {
+function Center({ children, width, column = false, gap = 0, padding = 0 }: CenterProps) {
   const style: CSSProperties = {
     width,
     flexDirection: column ? "column" : "row",
@@ -29,3 +23,5 @@ export default function Center({
     </div>
   );
 }
+
+export default Center;

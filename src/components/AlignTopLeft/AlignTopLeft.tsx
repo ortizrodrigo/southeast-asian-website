@@ -8,7 +8,7 @@ interface AlignTopLeftProps {
   padding?: string | number;
 }
 
-export default function AlignTopLeft({ children, width, gap = 0, padding = 0 }: AlignTopLeftProps) {
+function AlignTopLeft({ children, width, gap = 0, padding = 0 }: AlignTopLeftProps) {
   const style: CSSProperties = {
     width,
     gap,
@@ -21,3 +21,5 @@ export default function AlignTopLeft({ children, width, gap = 0, padding = 0 }: 
     </div>
   );
 }
+
+export default AlignTopLeft;

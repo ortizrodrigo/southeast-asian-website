@@ -1,0 +1,27 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 50px;
+  background-color: #4a5c3a;
+  color: #e8e1cf;
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  outline: none;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background-color: #3a4a2e;
+  color: #fc9313;
+  transform: translateY(-3px);
+}
+
+.button:active {
+  transform: translateY(-1px);
+}
