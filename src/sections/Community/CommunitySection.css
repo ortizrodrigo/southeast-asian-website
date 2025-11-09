@@ -1,8 +1,5 @@
 .community-section {
   background-color: #e8e1cf;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 32px 0;
 }
 

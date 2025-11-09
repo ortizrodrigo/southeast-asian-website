@@ -1,57 +1,49 @@
-import React from "react";
-import type { ReactNode } from "react";
+import type { ReactNode, CSSProperties } from "react";
 
 interface ListProps {
   entries?: string[];
   children?: ReactNode;
-  gap?: string;
+  gap?: string | number;
   bullets?: boolean;
   center?: boolean;
 }
 
-function List({ entries, children, gap = "0", bullets = false, center = false }: ListProps) {
+export default function List({
+  entries,
+  children,
+  gap = 0,
+  bullets = false,
+  center = false,
+}: ListProps) {
+  const listStyle: CSSProperties = {
+    listStyleType: bullets ? "disc" : "none",
+    paddingLeft: bullets ? undefined : 0,
+    textAlign: center ? "center" : "left",
+    margin: 0,
+    padding: 0,
+    display: "flex",
+    flexDirection: "column",
+    gap,
+  };
+
+  const containerStyle: CSSProperties = {
+    textAlign: center ? "center" : "left",
+    display: "flex",
+    flexDirection: "column",
+    gap,
+  };
+
   return (
     <div className="list">
       {entries && (
-        <ul
-          style={{
-            listStyleType: bullets ? "disc" : "none",
-            paddingLeft: bullets ? undefined : 0,
-            textAlign: center ? "center" : "left",
-          }}
-        >
+        <ul style={listStyle}>
           {entries.map((entry, index) => (
-            <li
-              key={index}
-              style={{
-                marginBottom: gap,
-              }}
-            >
-              {entry}
-            </li>
+            <li key={index}>{entry}</li>
           ))}
         </ul>
       )}
 
-      {children && (
-        <div
-          style={{
-            textAlign: center ? "center" : "left",
-          }}
-        >
-          {React.Children.map(children, (child) => (
-            <div
-              style={{
-                marginBottom: gap,
-              }}
-            >
-              {child}
-            </div>
-          ))}
-        </div>
-      )}
+      {children && <div style={containerStyle}>{children}</div>}
     </div>
   );
 }
-
-export default List;

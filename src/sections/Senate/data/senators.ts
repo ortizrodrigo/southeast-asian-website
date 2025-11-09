@@ -25,5 +25,8 @@ export const abigailVerinoInformation = {
   endYear: 2025,
   description: [
     "This website was initiated and established in 2024-2025 through the office of Senator Abigail Verino in efforts to bring together the Southeast Asian Community at Cal, highlighting the resources available for all students.",
+    "Web Design Co-Director: Iana Mae Peralta",
+    "Web Design Co-Director: Madison Urot",
+    "Web Design Co-Director: Nathalia Marie Javier",
   ],
 };

@@ -7,21 +7,23 @@ import SimpleMenuSection from "./SimpleMenuSection";
 function CommunitySection() {
   return (
     <section className="community-section">
-      <Center width={"80%"}>
-        <h2 className="community-section-title">Our Community</h2>
-        <InlineLine />
-        <p className="community-section-location">Berkeley</p>
+      <Center>
+        <Center width={"80%"}>
+          <h2 className="community-section-title">Our Community</h2>
+          <InlineLine />
+          <p className="community-section-location">Berkeley</p>
+        </Center>
+        <SplitView gap="16px" width={"80%"} alignItems="flex-start">
+          <AlignTopLeft>
+            <MenuSection title="Authors and Publications" entries={authors} />
+            <SimpleMenuSection title="Student Organizations" entries={studentOrganizations} />
+          </AlignTopLeft>
+          <AlignTopLeft>
+            <MenuSection title="Locations" entries={locations} />
+            <MenuSection title="Restaurants We Recommend" entries={restaurants} />
+          </AlignTopLeft>
+        </SplitView>
       </Center>
-      <SplitView gap="16px" width={"80%"} alignItems="flex-start">
-        <AlignTopLeft>
-          <MenuSection title="Authors and Publications" entries={authors} />
-          <SimpleMenuSection title="Student Organizations" entries={studentOrganizations} />
-        </AlignTopLeft>
-        <AlignTopLeft>
-          <MenuSection title="Locations" entries={locations} />
-          <MenuSection title="Restaurants We Recommend" entries={restaurants} />
-        </AlignTopLeft>
-      </SplitView>
     </section>
   );
 }
