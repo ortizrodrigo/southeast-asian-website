@@ -1,11 +1,11 @@
 import asucLogo from "./senate/asuc-logo.png";
 import senateLogo from "./senate/senate-logo.png";
 
-import abigailVerino from "./senate/abigail-verino.png";
-import asucSenatorVerinoBlackLogo from "./senate/asuc-senator-verino-black-logo.png";
+import abigailVerino from "./senate/abigail-verino/abigail-verino.png";
+import asucSenatorVerinoBlackLogo from "./senate/abigail-verino/asuc-senator-verino-black-logo.png";
 
-import sydneeThy from "./senate/sydnee-thy.jpeg";
-import asucSenatorThyColorLogo from "./senate/asuc-senator-thy-color-logo.png";
+import sydneeThy from "./senate/sydnee-thy/sydnee-thy.jpeg";
+import asucSenatorThyColorLogo from "./senate/sydnee-thy/asuc-senator-thy-color-logo.png";
 
 import lotusFlower from "./decoration/lotus-flower.jpg";
 import sohotonCoveBucasGrandePhilippines from "./decoration/sohoton-cove-bucas-grande-philippines.jpg";
