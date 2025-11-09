@@ -1,7 +1,7 @@
 import "./ResourcesSection.css";
 import { SplitView, Center, ImageCard, Link, List } from "../../components";
 import { tegallalangRiceTerracesBaliPortrait } from "../../assets";
-import { courses, coursesUrl, scholarshipsUrl } from "./data";
+import { courses, coursesUrl, scholarships, scholarshipsUrl } from "./data";
 function ResourcesSection() {
   return (
     <section className="resources-section">
@@ -24,12 +24,13 @@ function ResourcesSection() {
             </h3>
             <List entries={courses} center />
           </Center>
-          <Center>
+          <Center column>
             <h3 className="resources-section-header">
               <Link href={scholarshipsUrl} underline bold>
                 Scholarships
               </Link>
             </h3>
+            <List entries={scholarships} center />
           </Center>
           <Center>
             <h3 className="resources-section-header">Museum and Cultural Centers</h3>
