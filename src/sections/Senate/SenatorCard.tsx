@@ -16,12 +16,12 @@ function SenatorCard({ name, logo, picture, startYear, endYear, description }: S
     <Center column>
       <SenatorHeader logo={logo} startYear={startYear} endYear={endYear} />
       <SplitView width={"80%"}>
-        <Center width={"50%"}>
+        <Center>
           <h3>{name}</h3>
           <List entries={description} gap={16} center />
         </Center>
-        <Center width={"40%"} padding={16}>
-          <ImageCard image={picture} description={name} preserveAspectRatio />
+        <Center width={"50%"} padding={16}>
+          <ImageCard image={picture} description={name} minWidth={200} preserveAspectRatio />
         </Center>
       </SplitView>
     </Center>
