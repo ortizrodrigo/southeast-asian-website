@@ -11,6 +11,7 @@
 
 .about-section-text {
   font-size: 24px;
+  text-align: center;
 }
 
 @media (max-width: 768px), (max-height: 768px) {
