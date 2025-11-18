@@ -10,8 +10,8 @@ function SenateSection() {
       <Center column>
         <h2 className="senate-section-title">Senate</h2>
         <SenatorCard {...sydneeThyInformation} />
-        <SenatorCard {...abigailVerinoInformation} />
         <SenateLinks />
+        <SenatorCard {...abigailVerinoInformation} />
       </Center>
     </section>
   );
