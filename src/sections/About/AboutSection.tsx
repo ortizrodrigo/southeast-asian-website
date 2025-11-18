@@ -22,9 +22,10 @@ function AboutSection() {
           <SplitView column>
             <h2 className="about-section-title">About Us</h2>
             <p className="about-section-text">
-              Berkeley is home to students from various backgrounds. Through the initiatives of the
-              Office of Senator Sydnee Thy, this website was created to share information about the
-              Southeast Community at Cal.
+              Berkeley is home to students from various backgrounds, especially within the Southeast
+              Asian diaspora. Through the initiatives of the Office of (former) ASUC Senator Abigail
+              Verino and the Office of ASUC Senator Sydnee Thy, this website was created to share
+              information about and resources for the Southeast Asian student community at Cal.
             </p>
           </SplitView>
         </Center>
