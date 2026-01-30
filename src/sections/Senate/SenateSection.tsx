@@ -1,7 +1,7 @@
 import "./SenateSection.css";
 import SenatorCard from "./SenatorCard";
 import SenateLinks from "./SenateLinks";
-import { sydneeThyInformation, abigailVerinoInformation } from "./data";
+import { sydneeThyInformation, abigailVerinoSenatorInformation, abigailVerinoPresidentInformation } from "./data";
 import { Center } from "../../components";
 
 function SenateSection() {
@@ -11,7 +11,8 @@ function SenateSection() {
         <h2 className="senate-section-title">Senate</h2>
         <SenatorCard {...sydneeThyInformation} />
         <SenateLinks />
-        <SenatorCard {...abigailVerinoInformation} />
+        <SenatorCard {...abigailVerinoPresidentInformation} />
+        <SenatorCard {...abigailVerinoSenatorInformation} />
       </Center>
     </section>
   );

@@ -3,6 +3,8 @@ import {
   sydneeThy,
   asucSenatorVerinoBlackLogo,
   abigailVerino,
+  abigailVerinoPresident,
+  presidentLogo,
 } from "../../../assets";
 
 export const sydneeThyInformation = {
@@ -17,7 +19,21 @@ export const sydneeThyInformation = {
   ],
 };
 
-export const abigailVerinoInformation = {
+export const abigailVerinoPresidentInformation = {
+  name: "Abigail Verino",
+  logo: presidentLogo,
+  picture: abigailVerinoPresident,
+  startYear: 2024,
+  endYear: 2025,
+  description: [
+    "This website was initiated and established in 2024-2025 through the office of Senator Abigail Verino in efforts to bring together the Southeast Asian Community at Cal, highlighting the resources available for all students.",
+    "Placeholder",
+    "Placeholder",
+    "Placeholder",
+  ],
+};
+
+export const abigailVerinoSenatorInformation = {
   name: "Abigail Verino",
   logo: asucSenatorVerinoBlackLogo,
   picture: abigailVerino,
