@@ -5,7 +5,7 @@ export const senateLinks = [
   },
   {
     label: "Linktree",
-    href: "https://linktr.ee/asucsenatorthy",
+    href: "https://linktr.ee/senatorthy",
   },
   {
     label: "Apply to the Office!",
