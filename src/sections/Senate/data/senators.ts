@@ -26,10 +26,8 @@ export const abigailVerinoPresidentInformation = {
   startYear: 2024,
   endYear: 2025,
   description: [
-    "This website was initiated and established in 2024-2025 through the office of Senator Abigail Verino in efforts to bring together the Southeast Asian Community at Cal, highlighting the resources available for all students.",
-    "Placeholder",
-    "Placeholder",
-    "Placeholder",
+    "The role of the ASUC President is to uplift, unify and empower our campus community by acting as the bridge between students and campus administration. Abigail Verino is a fourth-year student pursuing a double major in Ethnic Studies & Legal Studies.",
+    "Her administration's mission is to center communities to advance the progress of the Associated Students of the University of California. She built her campaign upon student activism, and centered principles of intention, equity, and excellence. As she leads the university with love, these values will remain at the forefront of her work.",
   ],
 };
 
