@@ -1,4 +1,4 @@
-export const senateLinks = [
+export const senateLinksSydneeThy = [
   {
     label: "Instagram",
     href: "https://www.instagram.com/asucsenatorthy/#",
@@ -18,5 +18,20 @@ export const senateLinks = [
   {
     label: "Calendar & Newsletter",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSd8mRoV75Wg7-aIdi1KS0nOrrYoklOTet_nX5RYdU52p_GByA/viewform",
+  },
+];
+
+export const senateLinksAbigailVerino = [
+  {
+    label: "Instagram",
+    href: "https://www.instagram.com/ucbpresident",
+  },
+  {
+    label: "Linktree",
+    href: "https://linktr.ee/ucbpresident",
+  },
+  {
+    label: "CalLink",
+    href: "https://callink.berkeley.edu/organization/asucpresidentsoffice",
   },
 ];

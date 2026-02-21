@@ -3,4 +3,4 @@ export {
   abigailVerinoPresidentInformation,
   abigailVerinoSenatorInformation,
 } from "./senators.ts";
-export { senateLinks } from "./senateLinks.ts";
+export { senateLinksSydneeThy, senateLinksAbigailVerino } from "./senateLinks.ts";
