@@ -1,7 +1,7 @@
 import {
   asucSenatorThyColorLogo,
   sydneeThy,
-  asucSenatorVerinoBlackLogo,
+  asucSenatorVerinoColorLogo,
   abigailVerino,
   abigailVerinoPresident,
   presidentLogo,
@@ -33,7 +33,7 @@ export const abigailVerinoPresidentInformation = {
 
 export const abigailVerinoSenatorInformation = {
   name: "Abigail Verino",
-  logo: asucSenatorVerinoBlackLogo,
+  logo: asucSenatorVerinoColorLogo,
   picture: abigailVerino,
   startYear: 2024,
   endYear: 2025,

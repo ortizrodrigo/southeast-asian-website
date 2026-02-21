@@ -4,8 +4,9 @@ import senateLogo from "./senate/senate-logo.png";
 import abigailVerino from "./senate/abigail-verino/abigail-verino.png";
 import abigailVerinoPresident from "./senate/abigail-verino/abigail-verino-president.png";
 import asucSenatorVerinoBlackLogo from "./senate/abigail-verino/asuc-senator-verino-black-logo.png";
+import asucSenatorVerinoColorLogo from "./senate/abigail-verino/asuc-senator-verino-color-logo.png";
 
-import sydneeThy from "./senate/sydnee-thy/sydnee-thy.jpeg";
+import sydneeThy from "./senate/sydnee-thy/sydnee-thy.jpg";
 import asucSenatorThyColorLogo from "./senate/sydnee-thy/asuc-senator-thy-color-logo.png";
 
 import presidentLogo from "./senate/president_horizontal_lightbackground.png";
@@ -25,6 +26,7 @@ export {
   abigailVerino,
   abigailVerinoPresident,
   asucSenatorVerinoBlackLogo,
+  asucSenatorVerinoColorLogo,
   sydneeThy,
   asucSenatorThyColorLogo,
   presidentLogo,
