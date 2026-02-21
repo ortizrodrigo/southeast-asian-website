@@ -23,8 +23,8 @@ export const abigailVerinoPresidentInformation = {
   name: "Abigail Verino",
   logo: presidentLogo,
   picture: abigailVerinoPresident,
-  startYear: 2024,
-  endYear: 2025,
+  startYear: 2025,
+  endYear: 2026,
   description: [
     "The role of the ASUC President is to uplift, unify and empower our campus community by acting as the bridge between students and campus administration. Abigail Verino is a fourth-year student pursuing a double major in Ethnic Studies & Legal Studies.",
     "Her administration's mission is to center communities to advance the progress of the Associated Students of the University of California. She built her campaign upon student activism, and centered principles of intention, equity, and excellence. As she leads the university with love, these values will remain at the forefront of her work.",

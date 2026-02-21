@@ -28,7 +28,7 @@ function ResourcesSection() {
                 Courses Offered At Berkeley
               </ExternalLink>
             </h3>
-            <List entries={courses} center />
+            <List entries={courses.sort()} center />
           </Center>
           <Center column>
             <h3 className="resources-section-header">
@@ -36,11 +36,11 @@ function ResourcesSection() {
                 Scholarships
               </ExternalLink>
             </h3>
-            <List entries={scholarships} center />
+            <List entries={scholarships.sort()} center />
           </Center>
           <Center column>
             <h3 className="resources-section-header">Museum and Cultural Centers</h3>
-            <List entries={museumAndCulturalCenters} center />
+            <List entries={museumAndCulturalCenters.sort()} center />
           </Center>
         </Center>
       </SplitView>

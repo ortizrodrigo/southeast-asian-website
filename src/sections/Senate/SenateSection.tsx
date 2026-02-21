@@ -8,7 +8,7 @@ function SenateSection() {
   return (
     <section id="senate" className="senate-section">
       <Center column>
-        <h2 className="senate-section-title">Senate</h2>
+        <h2 className="senate-section-title">ASUC Leadership</h2>
         <SenatorCard {...sydneeThyInformation} />
         <SenateLinks />
         <SenatorCard {...abigailVerinoPresidentInformation} />

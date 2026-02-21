@@ -32,7 +32,7 @@ function Hero({ title, subtitle, backgroundImage }: HeroProps) {
           Resources
         </button>
         <button className="hero-nav-button" onClick={() => scrollTo("senate")}>
-          Senate
+          ASUC Leadership
         </button>
       </div>
       <div className="hero-content">

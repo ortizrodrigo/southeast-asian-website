@@ -9,7 +9,7 @@ function SimpleMenuSection({ title, entries }: SimpleMenuSectionProps) {
   return (
     <div>
       <h3 className="community-section-menu-header">{title}</h3>
-      <List entries={entries} />
+      <List entries={entries.sort()} />
     </div>
   );
 }

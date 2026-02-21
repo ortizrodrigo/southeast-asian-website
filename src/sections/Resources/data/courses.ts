@@ -1,11 +1,10 @@
 export const courses: string[] = [
-  "Southeast Asian",
-  "Filipino",
-  "Thai",
-  "Vietnamese",
-  "Indonesian",
-  "Burmese",
-  "Khmer",
+  "Southeast Asian Studies (B.A. Major Available)",
+  "Tagalog Language",
+  "Thai Language",
+  "Vietnamese Language",
+  "Indonesian Language",
+  "Burmese Language",
 ];
 
 export const coursesUrl =

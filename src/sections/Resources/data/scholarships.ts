@@ -5,6 +5,7 @@ export const scholarships: string[] = [
   "CAPAL Public Service Scholarship",
   "Asian Pacific Fund Scholarships",
   "APIA Scholars",
+  "Grace Rualo Asuncion Memorial Scholarship",
 ];
 
 export const scholarshipsUrl =
