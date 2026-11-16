@@ -1,5 +1,7 @@
 import asucLogo from "./senate/asuc-logo.png";
 import senateLogo from "./senate/senate-logo.png";
+import miTang from "./senate/mi-tang/ASUC Senator Mi Tang [headshot].jpg";
+import asucSenatorTangLogo from "./senate/mi-tang/ASUC Senator Tang Logo.png";
 
 import abigailVerino from "./senate/abigail-verino/abigail-verino.png";
 import abigailVerinoPresident from "./senate/abigail-verino/abigail-verino-president.png";
@@ -23,6 +25,8 @@ import theEmpireBruneiJerudongOld from "./decoration/the-empire-brunei-jerudong-
 export {
   asucLogo,
   senateLogo,
+  miTang,
+  asucSenatorTangLogo,
   abigailVerino,
   abigailVerinoPresident,
   asucSenatorVerinoBlackLogo,

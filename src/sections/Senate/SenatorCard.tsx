@@ -5,7 +5,7 @@ import { Center, SplitView, List, ImageCard } from "../../components";
 export interface SenatorCardProps {
   name: string;
   logo: string;
-  picture: string;
+  picture?: string;
   startYear: number;
   endYear: number;
   description: string[];
@@ -20,9 +20,11 @@ function SenatorCard({ name, logo, picture, startYear, endYear, description }: S
           <h3>{name}</h3>
           <List entries={description} gap={16} center />
         </Center>
-        <Center width={"50%"} padding={16}>
-          <ImageCard image={picture} description={name} minWidth={200} preserveAspectRatio />
-        </Center>
+        {picture && (
+          <Center width={"50%"} padding={16}>
+            <ImageCard image={picture} description={name} minWidth={200} preserveAspectRatio />
+          </Center>
+        )}
       </SplitView>
     </Center>
   );

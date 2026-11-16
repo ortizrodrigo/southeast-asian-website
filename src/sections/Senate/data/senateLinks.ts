@@ -35,3 +35,17 @@ export const senateLinksAbigailVerino = [
     href: "https://callink.berkeley.edu/organization/asucpresidentsoffice",
   },
 ];
+export const senateLinksMiTang = [
+  { label: "Linktree", href: "https://linktr.ee/mitang" },
+  { label: "Instagram", href: "https://www.instagram.com/asucsenatortang" },
+  { label: "Apply to the Office!", href: "https://forms.gle/gQrceyPdYRefEALx8" },
+  {
+    label: "Roles & Responsibilities",
+    href: "https://docs.google.com/document/d/1HzdKSwv8ZBNAkIuLnBWA1wGcj0mOlLcBqeDM_lENM7M/edit?usp=sharing",
+  },
+  {
+    label: "Join the SEA Slack/Calendar!",
+    href: "https://docs.google.com/forms/d/e/1FAIpQLSd8mRoV75Wg7-aIdi1KS0nOrrYoklOTet_nX5RYdU52p_GByA/viewform",
+  },
+];
+
