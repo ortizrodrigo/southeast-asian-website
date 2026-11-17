@@ -1,6 +1,7 @@
 export {
+  miTangInformation,
   sydneeThyInformation,
   abigailVerinoPresidentInformation,
   abigailVerinoSenatorInformation,
 } from "./senators.ts";
-export { senateLinksSydneeThy, senateLinksAbigailVerino } from "./senateLinks.ts";
+export { senateLinksMiTang, senateLinksSydneeThy, senateLinksAbigailVerino } from "./senateLinks.ts";
